@@ -22,7 +22,7 @@ Features:
 - `id`: (primary key, auto increment) - Unique identifier for each record.
 - `tweet_id`: Unique identifier from Twitter for each tweet.
 - `tweet_userid`: Unique identifier of the User who tweeted
-- `tweet_text`: The tweet itself
+- `tweet_text`: Text of the tweet
 - `tweet_createdat`: Timestamp of when the tweet was published
 
 #### More features:
