@@ -39,8 +39,9 @@ This Python program can be run from the command line when in the main folder
     python3 main.py
 The appropriate log files will be generated in the `logs` folder
 
-Once the application stops running, we can explore the `.db` file generated in the data folder using any SQLite3 browser
-Recommended (Supports Windows and macOS): https://sqlitebrowser.org/dl/
+Once the application stops running, we can explore the data by opening the `{db_name}.db` file generated in the data folder using any SQLite3 browser.
+
+Recommended Database Browser: (Supports Windows and macOS): https://sqlitebrowser.org/dl/
 
 # 4. Project Structure
 
