@@ -1,0 +1,21 @@
+2022-02-08 18:50:00,870 : ERROR : __main__ : unable to open database file
+2022-02-08 18:51:28,876 : ERROR : __main__ : unable to open database file
+2022-02-08 18:52:02,711 : ERROR : __main__ : unable to open database file
+2022-02-08 18:54:57,277 : ERROR : __main__ : unable to open database file
+2022-02-09 00:06:17,752 : INFO : __main__ : Tweets consumed: 100
+2022-02-09 00:06:17,755 : INFO : __main__ : Duplicates removed: 8
+2022-02-09 00:06:17,755 : INFO : __main__ : Tweets consumed: 92
+2022-02-09 00:08:52,099 : ERROR : __main__ : unable to open database file
+2022-02-09 00:09:21,270 : ERROR : __main__ : unable to open database file
+2022-02-09 00:10:37,832 : ERROR : __main__ : unable to open database file
+2022-02-09 00:11:01,469 : ERROR : __main__ : unable to open database file
+2022-02-09 00:11:26,061 : ERROR : __main__ : unable to open database file
+2022-02-09 00:13:40,017 : ERROR : __main__ : unable to open database file
+2022-02-09 00:17:50,803 : INFO : __main__ : Tweets consumed: 100
+2022-02-09 00:17:50,808 : INFO : __main__ : Tweets consumed: 100
+2022-02-09 00:17:50,810 : INFO : __main__ : Duplicates removed: 8
+2022-02-09 00:17:50,810 : INFO : __main__ : Tweets consumed: 92
+2022-02-09 00:22:20,258 : INFO : __main__ : Tweets consumed: 500
+2022-02-09 00:22:20,280 : INFO : __main__ : Tweets consumed: 500
+2022-02-09 00:22:20,289 : INFO : __main__ : Duplicates removed: 83
+2022-02-09 00:22:20,289 : INFO : __main__ : Tweets consumed: 417
