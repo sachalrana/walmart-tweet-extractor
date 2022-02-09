@@ -19,3 +19,11 @@
 2022-02-09 00:22:20,280 : INFO : __main__ : Tweets consumed: 500
 2022-02-09 00:22:20,289 : INFO : __main__ : Duplicates removed: 83
 2022-02-09 00:22:20,289 : INFO : __main__ : Tweets consumed: 417
+2022-02-09 02:33:34,001 : INFO : __main__ : Tweets consumed: 500
+2022-02-09 02:33:34,005 : INFO : __main__ : Tweets consumed: 500
+2022-02-09 02:33:34,007 : INFO : __main__ : Duplicates removed: 83
+2022-02-09 02:33:34,008 : INFO : __main__ : Tweets consumed: 417
+2022-02-09 02:37:18,112 : INFO : __main__ : Tweets consumed: 500
+2022-02-09 02:37:18,116 : INFO : __main__ : Tweets consumed: 500
+2022-02-09 02:37:18,119 : INFO : __main__ : Duplicates removed: 83
+2022-02-09 02:37:18,119 : INFO : __main__ : Tweets consumed: 417

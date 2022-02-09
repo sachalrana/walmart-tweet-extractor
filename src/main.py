@@ -6,6 +6,7 @@ import sqlite3
 import logging
 import credentials
 
+# Setting up logging
 logger = logging.getLogger(__name__)  
 logger.setLevel(logging.INFO)
 file_handler = logging.FileHandler('logs/tweet_processing.log')
@@ -13,6 +14,7 @@ formatter    = logging.Formatter('%(asctime)s : %(levelname)s : %(name)s : %(mes
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 
+# function responsible for writing the downloaded tweets into the DB
 def save_tweets(tweet_list, db_conn, tbl):
 
     sql_insert = '''INSERT INTO {table_name} (tweet_id,tweet_text,tweet_createdat,tweet_userid) 
@@ -26,6 +28,7 @@ def save_tweets(tweet_list, db_conn, tbl):
     except sqlite3.Error as err:
         logger.error(err)
 
+# Responsible for creating a connection to the database file. It will create a new file if it's not already present
 def create_sql_conn():
     conn = None
     try:
@@ -37,6 +40,7 @@ def create_sql_conn():
         if conn:
             return conn
 
+# Creates a new table, drops an existing one
 def create_tbl(tbl,db_conn):
 
     cur = db_conn.cursor()
@@ -52,6 +56,7 @@ def create_tbl(tbl,db_conn):
 
 if __name__ == '__main__':
 
+    # Setting up the Tweepy API
     auth = tweepy.OAuthHandler(credentials.TWITTER_API_KEY, credentials.TWITTER_API_KEY_SECRET)
     auth.set_access_token(credentials.TWITTER_ACCESS_TOKEN, credentials.TWITTER_ACCESS_TOKEN_SECRET)
     api = tweepy.API(auth,wait_on_rate_limit=True)
