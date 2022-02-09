@@ -47,12 +47,12 @@ Recommended (Supports Windows and macOS): https://sqlitebrowser.org/dl/
 ```
 |   requirements.txt
 ├── src
-│   ├── main.py         <- main app.
+│   	├── main.py         <- main app
 	├── credentials.py  <- contains credentials + config.
-│
-├── logs          		<- Logs folder.
 |
-├── data                <- DB file.
+├── logs	<- Contains the logs generated.
+|
+├── data	<- Contains the .db file to explore.
 ```
 
 # 5. Further Questions
