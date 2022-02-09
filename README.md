@@ -90,3 +90,6 @@ Recommended (Supports Windows and macOS): https://sqlitebrowser.org/dl/
 Every organization has its way of deploying a production-ready solution. Most of the time, sprints are done in spans of 2 weeks. Requirement Gathering can take approximately a week and then we can have 2 week sprints; coding, testing, deployment to UAT and Prod + testing. So in total we can assume the solution from start to finish can take anytime between 2-3 sprints (1.5 - 2 months).
 
 # 6. Conclusion
+There were various way of interpreting and finalizing a solution for getting tweets regarding a particular topic. Twitter had recently released a v2 of their API with more robust features and endpoints for deeper analysis however it is still in development and hasn't been fully completed.
+I had come up with a solution initially utilizing the v2 version of the app which allowed me to remove certain types of tweets from being streamed using rules, however, the API was too slow to stream the tweets which forced me to look into their v1 API which was quite decent as well. 
+Moreover, the way the v2 API endpoint for streaming tweets was designed, we could only interrupt the stream with a KeyboardInterrupt which wasn't feasible in our use case where we have to perform certain queries on the resultant dataset hence another reason to look into the v1 version of Twitter's API. 
