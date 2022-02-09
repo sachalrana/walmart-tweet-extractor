@@ -30,7 +30,7 @@ There were tons of more features available from the Twitter Streaming API such a
 
 # 3. Deployment
 1. Before we run the program, we need to input the access keys and bearer token that the user has available from Twitter's Dev Account (https://developer.twitter.com/en/portal/dashboard). 
-2. Modify the `credentials.py` file available in the `config` folder and modify the appropriate attributes accordingly.
+2. Modify the `credentials.py` file available in the `config` folder and modify the appropriate attributes accordingly. For now my credentials are already there (**I know it's bad practice**)
 3. Modify the number of tweets that you want to extract from Twitter by updating the `MAX_RESULTS` parameter in the file
 4. You can specify the name of the database file by modifying the `DB_FILE` parameter in the file
 
