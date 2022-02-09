@@ -34,12 +34,13 @@ There were tons of more features available from the Twitter Streaming API such a
 3. Modify the number of tweets that you want to extract from Twitter by updating the `MAX_RESULTS` parameter in the file
 4. You can specify the name of the database file by modifying the `DB_FILE` parameter in the file
 
-This Python program can be run from the command line when in the main folder
+This Python program can be run from the command line when in the main folder assuming all the necessary libraries have been installed in your python3 environment
 
     python3 main.py
 The appropriate log files will be generated in the `logs` folder
 
 Once the application stops running, we can explore the data by opening the `{db_name}.db` file generated in the data folder using any SQLite3 browser.
+The answers to unique counts plus the number of tweets consumed are going to be printed in the log and the terminal window as well where you run the python program.
 
 Recommended Database Browser: (Supports Windows and macOS): https://sqlitebrowser.org/dl/
 
