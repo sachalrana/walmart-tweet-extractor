@@ -86,6 +86,7 @@ Recommended (Supports Windows and macOS): https://sqlitebrowser.org/dl/
 - *Operationalization And Maintenance*: LOE is **high**. In this phase, the solution is running and now we have to make sure that data integrity is maintained plus the proper data governance controls are in place.  
 
 **Q5. What is your estimated timeline for delivery for a production-ready solution?**
+
 Every organization has its way of deploying a production-ready solution. Most of the time, sprints are done in spans of 2 weeks. Requirement Gathering can take approximately a week and then we can have 2 week sprints; coding, testing, deployment to UAT and Prod + testing. So in total we can assume the solution from start to finish can take anytime between 2-3 sprints (1.5 - 2 months).
 
 # 6. Conclusion
